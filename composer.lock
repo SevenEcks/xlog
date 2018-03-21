@@ -1,0 +1,159 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "35e13b28d3b6ac501aa088caca552e7d",
+    "packages": [
+        {
+            "name": "psr/log",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Log\\": "Psr/Log/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "homepage": "https://github.com/php-fig/log",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "time": "2016-10-10 12:19:37"
+        },
+        {
+            "name": "sevenecks/ansi",
+            "version": "1.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SevenEcks/ansi.git",
+                "reference": "7c81ca9955439a2c772c2348310a8fdae20846d6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SevenEcks/ansi/zipball/7c81ca9955439a2c772c2348310a8fdae20846d6",
+                "reference": "7c81ca9955439a2c772c2348310a8fdae20846d6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "SevenEcks\\Ansi\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Brendan Butts",
+                    "email": "bbutts@stormcode.net"
+                }
+            ],
+            "description": "This package offers an API to colorize strings of text with various ANSI colors using static methods.",
+            "homepage": "https://github.com/sevenecks",
+            "keywords": [
+                "ansi",
+                "cli",
+                "color",
+                "colors",
+                "console",
+                "shell"
+            ],
+            "time": "2018-03-20T19:49:35+00:00"
+        },
+        {
+            "name": "sevenecks/string-utils",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SevenEcks/string-utils.git",
+                "reference": "14c7909e73710173c833639a89737c2b4aaebbff"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SevenEcks/string-utils/zipball/14c7909e73710173c833639a89737c2b4aaebbff",
+                "reference": "14c7909e73710173c833639a89737c2b4aaebbff",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4",
+                "sevenecks/ansi": "^1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "SevenEcks\\StringUtils\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Brendan Butts",
+                    "email": "bbutts@stormcode.net"
+                }
+            ],
+            "description": "A collection of string utilities for PHP, loosely based on the LambdaMOO $string_utils package.",
+            "homepage": "https://github.com/sevenecks",
+            "keywords": [
+                "cli",
+                "command line",
+                "console",
+                "formatting",
+                "lambdamoo",
+                "shell",
+                "string"
+            ],
+            "time": "2018-03-21 20:47:13"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "sevenecks/string-utils": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

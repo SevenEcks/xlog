@@ -1,0 +1,22 @@
+{
+    "name": "sevenecks/xlog",
+    "description": "psr3 compliant-ish logger",
+    "type": "package",
+    "require": {
+        "psr/log": "^1.0",
+        "sevenecks/string-utils": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Brendan Butts",
+            "email": "bbutts@stormcode.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "SevenEcks\\Xlog\\": "src/"
+        }
+    }
+}
