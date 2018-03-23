@@ -42,6 +42,7 @@ cat xlog.log
 
 All colors are created using ANSI color codes from Colorizer that is a part of this [ANSI](https://github.com/SevenEcks/ansi) module.
 
+```
 Emergency => Red
 Alert => Light Red
 Critical => Purple
@@ -50,6 +51,7 @@ Warning => Yellow
 Notice => Light Gray
 Info => White
 Debug => Cyan
+```
 
 ## API
 
