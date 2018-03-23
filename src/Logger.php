@@ -44,5 +44,15 @@ class Logger extends AbstractLogger
             file_put_contents($this->file_name, $message);
         }
     }
+
+    /**
+     * Clear the log file
+     * 
+     * @return int
+     */
+    public function clearLog()
+    {
+        return file_put_contents($this->file_name, null);
+    }
 }
 

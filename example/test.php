@@ -5,6 +5,7 @@ require('src/Logger.php');
 use SevenEcks\Xlog\Logger;
 
 $xlog = new Logger;;
+$xlog->clearLog();
 $xlog->emergency('test');
 $xlog->alert('test');
 $xlog->critical('test');
