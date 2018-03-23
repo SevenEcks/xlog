@@ -4,7 +4,8 @@
     "type": "package",
     "require": {
         "psr/log": "^1.0",
-        "sevenecks/string-utils": "dev-master"
+        "sevenecks/ansi": "^1.0",
+        "sevenecks/string-utils": "^0.0.12"
     },
     "license": "MIT",
     "authors": [
@@ -13,7 +14,7 @@
             "email": "bbutts@stormcode.net"
         }
     ],
-    "minimum-stability": "dev",
+    "prefer-stable": true,
     "autoload": {
         "psr-4": {
             "SevenEcks\\Xlog\\": "src/"
