@@ -30,6 +30,14 @@ $xlog->info('test');
 $xlog->debug('test');
 ```
 
+### Bash Usage
+
+After logging some stuff you can cat your log file and see all the pretty colors.
+
+```bash
+cat xlog.log
+```
+
 ## API
 
 The [PSR-3 Logger Interface](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-3-logger-interface.md) defines the core of the API that this logging package uses.
@@ -132,7 +140,7 @@ public function log($level, $message, array $context = array());
 On top of that functionality is the ability to use dependency injection to configure the logging object, via constructor injection:
 
 ```php
-    public function __construct($file_name = 'xlog.log', $append_to_file = true, $string_utils = null, ColorInterface $colorize = null)
+public function __construct($file_name = 'xlog.log', $append_to_file = true, $string_utils = null, ColorInterface $colorize = null)
 ```
 
 The constructor takes the file name, the $append_to_file (it should probably always be on), the $string_utils object, and the ColorInterface object. If none of these are provided, the constructor will create them based on the defaults. If you are happy with the module as it is, you don't need to pass any constructor arguments aside from perhaps the $file_name.
