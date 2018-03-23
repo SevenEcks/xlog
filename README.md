@@ -38,6 +38,19 @@ After logging some stuff you can cat your log file and see all the pretty colors
 cat xlog.log
 ```
 
+### Colors
+
+All colors are created using ANSI color codes from Colorizer that is a part of this [ANSI](https://github.com/SevenEcks/ansi) module.
+
+Emergency => Red
+Alert => Light Red
+Critical => Purple
+Error => Light Purple
+Warning => Yellow
+Notice => Light Gray
+Info => White
+Debug => Cyan
+
 ## API
 
 The [PSR-3 Logger Interface](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-3-logger-interface.md) defines the core of the API that this logging package uses.
