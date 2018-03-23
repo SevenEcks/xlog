@@ -8,7 +8,7 @@ use SevenEcks\Ansi\Colorize;
 use SevenEcks\Ansi\ColorInterface;
 use SevenEcks\StringUtils\StringUtils;
 
-class Xlog extends AbstractLogger
+class Logger extends AbstractLogger
 {
     public function __construct($file_name = 'xlog.log', $append_to_file = true, $string_utils = null, ColorInterface $colorize = null)
     {
@@ -20,7 +20,6 @@ class Xlog extends AbstractLogger
 
     public function log($level, $message, array $context = array())
     {
-        $level = LogLevel::EMERGENCY;
         if ($level == LogLevel::EMERGENCY) {
             $message = $this->colorize->red('[' . $level . ']') . ' ' . $message;
         } elseif ($level == LogLevel::ALERT) {
