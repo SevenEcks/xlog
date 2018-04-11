@@ -47,7 +47,7 @@ class Logger extends AbstractLogger
 
     /**
      * Clear the log file
-     * 
+     *
      * @return int
      */
     public function clearLog()
@@ -55,4 +55,3 @@ class Logger extends AbstractLogger
         return file_put_contents($this->file_name, null);
     }
 }
-
