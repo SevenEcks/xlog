@@ -201,17 +201,17 @@ Please see [Change Log](CHANGELOG.md) for more information.
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/sevenecks/Hosts.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/sevenecks/xlog.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/sevenecks/Hosts/master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/sevenecks/Hosts.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/sevenecks/Hosts.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/sevenecks/Hosts.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/sevenecks/xlog/master.svg?style=flat-square
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/sevenecks/xlog.svg?style=flat-square
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/sevenecks/xlog.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/sevenecks/xlog.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/sevenecks/Hosts
-[link-travis]: https://travis-ci.org/sevenecks/Hosts
-[link-scrutinizer]: https://scrutinizer-ci.com/g/sevenecks/Hosts/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/sevenecks/Hosts
-[link-downloads]: https://packagist.org/packages/sevenecks/Hosts
+[link-packagist]: https://packagist.org/packages/sevenecks/xlog
+[link-travis]: https://travis-ci.org/sevenecks/xlog
+[link-scrutinizer]: https://scrutinizer-ci.com/g/sevenecks/xlog/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/sevenecks/xlog
+[link-downloads]: https://packagist.org/packages/sevenecks/xlog
 [link-author]: https://github.com/sevenecks
 [link-contributors]: ../../contributors
